@@ -28,7 +28,13 @@ main{
     height: 230px;
     margin-bottom: 60px;
     
+    
+    
 
+}
+.main-name:hover{
+    color: rgb(206, 199, 199);
+    transform: scale(1.1);
 }
 .live-link{
     background-color: #E02C6D;
@@ -38,7 +44,13 @@ main{
     padding-top: 15px;
     color: #FFFFFF;
     margin-top: 100px;
+    transition: width 2s;
     
+}
+.live-link:hover{
+    width: 300px;
+    border-radius: 5px;
+    background-color: #a01c4c;
 }
 #watch-live{
     text-decoration: none;
@@ -54,8 +66,14 @@ main{
 }
 .footbal-kick .shot img{
     width: 150%;
+    transition:  1.5s;
     
 }
+.first-division:hover img{
+     transform: skew(-10deg);
+}
+   
+
 
 /* second divition of players
 ----------------------------------------- */
