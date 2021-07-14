@@ -63,25 +63,23 @@ main{
     padding-top: 100px;
     padding-left: 200px;
     padding-right: 180px;
-    background-color: rgb(231, 224, 224);
+    background-color: rgb(252, 247, 247);
 }
 .all-players{
     
    display: grid;
    grid-template-columns: repeat(3, 1fr);
    grid-row-gap: 35px;
-    
-    
-    
+
 }
 .player{
     background-color: white;
     width: 320px;
     height: 490px;
-    border: 1px solid rgb(233, 227, 227);
+    border: 1px solid rgb(245, 242, 242);
     padding-top: 25px;
     padding-left: 20px;
-    box-shadow: 5px 5px 5px 5px rgb(199, 195, 195);
+    box-shadow: 1px 1px 1px 1px rgb(238, 232, 232);
     /* margin: 10px 0 25px 15px; */
     
 }
@@ -94,4 +92,133 @@ main{
 .player-details{
     width: 300px;
     height: 154px;
+}
+/* second division (bonous part-one):
+------------------------------------------------------ */
+.videos-part{
+    margin-top: 65px;
+}
+.videos{
+     display: flex;
+ }
+ .video{
+     margin-right: 35px;
+ }
+ /* second division(bonous part-two) 
+ -----------------------------------------*/
+
+.sponsors{
+    text-align: center;
+    margin-top: 65px;
+}
+.special-sponsors{
+    display: flex;
+    justify-content:center;
+}
+.sponsor{
+    background-image: linear-gradient(royalblue, rgb(18, 156, 211));
+    padding: 10px 15px 10px 15px;
+    margin-left: 15px;
+    border-radius: 15px;
+}
+.sponsors .special-sponsors .sponsor a{
+    text-decoration: none;
+}
+.sponsor a:visited{
+    color: white;
+}
+.sponsor a:hover{
+    color: brown;
+   
+}
+.football-photo{
+    margin-top: 95px;
+}
+.football-photo img{
+    width: 40%;
+}
+/* footer style 
+----------------------------------------------*/
+footer{
+    background-color: rgb(252, 247, 247);
+    text-align:center;
+    padding-top: 45px;
+    padding-bottom: 35px;
+    margin-bottom: 0;
+}
+.last-icon{
+    color: gray;
+    padding: 10px 10px 10px 10px;
+    background-color: rgb(228, 220, 220);
+    border-radius: 20px;
+    margin-left: 10px;
+
+}
+.copyright{
+    font-size: 25px;
+}
+.c-icon{
+    font-size: 14px;
+    color: gray;
+}
+
+/* @media query for mobile
+--------------------------------------------- */
+@media only screen and (max-width:688px){
+    .body{
+        width: 100%;
+    }
+    .first-division{
+    
+    width: 100%;
+    height: 1100px;  
+    display: flex;
+    flex-direction: column;
+    
+}
+.name-link{
+    margin-left: 50px;
+    margin-top: 0;
+    width: 100%;
+}
+.main-name{
+    width: 100%;
+}
+.live-link{
+    margin-top: 250px;
+}
+.footbal-kick{
+    width: 55%;
+    margin-top: 100px;
+    margin-left: 55px;
+}
+.second-division{
+    padding-left: 20px;
+}
+.all-players{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+}
+.videos{
+    flex-direction: column;
+    align-items: ;
+}
+.sponsors{
+    padding-left: 85px;
+}
+.special-sponsors{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 35px;
+    padding-left: 35px;
+
+}
+.football-photo{
+    position: relative;
+}
+.football-photo img{
+    width: 200%;
+    position: relative;
+    right: 50px;
 }
