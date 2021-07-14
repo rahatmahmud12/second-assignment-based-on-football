@@ -1,0 +1,97 @@
+/* font added */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+main{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+/* first division strat
+---------------------------------------- */
+.first-division{
+    background-color: #2D25A0;
+    width: 100%;
+    height: 740px;  
+    display: flex;
+    align-items: ;
+    
+}
+.name-link{
+    margin-left: 156px;
+    margin-top: 160px;
+    width: 50% ;
+}
+.main-name{
+    color: #FFFFFF;
+    font-size: 44px;
+    font-weight: 700px;
+    width: 448px;
+    height: 230px;
+    margin-bottom: 60px;
+    
+
+}
+.live-link{
+    background-color: #E02C6D;
+    width: 168px;
+    height: 44px;
+    text-align: center;
+    padding-top: 15px;
+    color: #FFFFFF;
+    margin-top: 100px;
+    
+}
+#watch-live{
+    text-decoration: none;
+    color: #FFFFFF;
+    padding-right: 10px;
+}
+.footbal-kick{
+    margin-top: 167px;
+    margin-right: 350px;
+    width: 556.01px;
+    height: 438px;
+    margin-bottom: 72px;
+}
+.footbal-kick .shot img{
+    width: 150%;
+    
+}
+
+/* second divition of players
+----------------------------------------- */
+.second-division{
+    padding-top: 100px;
+    padding-left: 200px;
+    padding-right: 180px;
+    background-color: rgb(231, 224, 224);
+}
+.all-players{
+    
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-row-gap: 35px;
+    
+    
+    
+}
+.player{
+    background-color: white;
+    width: 320px;
+    height: 490px;
+    border: 1px solid rgb(233, 227, 227);
+    padding-top: 25px;
+    padding-left: 20px;
+    box-shadow: 5px 5px 5px 5px rgb(199, 195, 195);
+    /* margin: 10px 0 25px 15px; */
+    
+}
+
+.all-players .player img{
+    width: 300px;
+    height: 256px;
+    w
+}
+.player-details{
+    width: 300px;
+    height: 154px;
+}
