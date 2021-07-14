@@ -29,9 +29,6 @@ main{
     margin-bottom: 60px;
     transition: .6s ease-in;
     
-    
-    
-
 }
 .main-name:hover{
     color: rgb(206, 199, 199);
@@ -107,7 +104,7 @@ main{
 .all-players .player img{
     width: 300px;
     height: 256px;
-    w
+    
 }
 .player-details{
     width: 300px;
@@ -151,7 +148,7 @@ main{
     text-decoration: none;
 }
 .sponsor a:visited{
-    color: white;
+    color: rgb(253, 246, 246);
 }
 .sponsor a:hover{
     color: brown;
